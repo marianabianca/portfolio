@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto';
+}
+
+.title{
+    font-weight: bold;
+    color: #263238;
+}
+
+.header{
+    width: 100vw;
+    font-size: 1.5rem;
+    background-color: #F5F5F5;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+}
+
+.header-links{
+    color: #C66A5D;
+    margin-right: 2rem;
+}
+.header-links:last-child{
+    margin-right: 5rem;
+}
+
+.header-title{
+    margin-left: 5rem;
+}
+
