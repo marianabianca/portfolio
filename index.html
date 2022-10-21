@@ -4,18 +4,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Mariana Dela-Bianca</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700">
   <link rel="stylesheet" href="main.css">
+
+  <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
 </head>
 <body>
-    <div class="header">
-      <div class="header-title title">Mariana Dela-Bianca</div>
-      <div class="container">
-        <nav class="header-links">Sobre mim</nav>
-        <nav class="header-links">Currículo</nav>
-        <nav class="header-links">Projetos</nav>
+    <div class="cabecalho">
+      <a href="#" class="link titulo cabecalho-titulo">Mariana Dela-Bianca</a>
+      <div class="container direcao-horizontal centralizado-horizontal">
+        <a href="#sobre" class="link cabecalho-links">Sobre mim</a>
+        <a href="#sobre" class="link cabecalho-links">Currículo</a>
+        <a href="#projetos" class="link cabecalho-links">Projetos</a>
       </div>
     </div>
+
+    <div class="pagina container centralizado-vertical centralizado-horizontal">
+      <img src="assets/bruxinha.png" class="bruxinha"/>
+      <div class="container direcao-vertical">
+        <span class="titulo titulo-secao">Hello, world! Me chamo Mariana!</span>
+        <span class="texto">
+          Sou bacharela em ciência da computação pela Universidade Federal de Campina Grande (UFCG).
+          Sou engenheira de software, já trabalhei com front-end e back-end.
+          No momento, estou no segundo ano do meu mestrado, também na UFCG. Meu tema é relacionado a mulheres na computação, 
+          ]e analiso dados do curso de ciência da computação da UFCG para entender melhor o desempenho dos estudantes e suas trajetórias.
+          Planejo retornar ao mercado de trabalho em 2023.
+        </span>
+        <span class="container direcao-horizontal">
+          <a target="_blank" href="https://github.com/marianabianca">
+            <button class="link botao-quadrado github">
+              <img src="assets/github.png" />
+            </button>
+          </a>
+          <a target="_blank" href="https://br.linkedin.com/in/marianadelabianca">
+            <button class="link botao-quadrado linkedin">
+              <img src="assets/linkedin.png" />
+            </button>
+          </a>
+          <a target="_blank" href="https://twitter.com/login?lang=pt">
+            <button class="link botao-quadrado twitter">
+              <img src="assets/twitter.png" />
+            </button>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/mariana.inventa/">
+            <button class="link botao-quadrado instagram">
+              <img src="assets/instagram.png" />
+            </button>
+          </a>
+        </span>
+        <a target="_blank" href="mailto:maridbianca@gmail.com">
+          <button class="link botao-retangulo primario">Contato</button>
+        </a>
+      </div>
+    </div>
+
+    <div id="sobre" class="pagina cinza container centralizado-vertical centralizado-horizontal">
+      <div class="container direcao-vertical">
+        <span class="titulo titulo-secao">Sobre mim</span>
+        <span class="texto">
+          Durante o curso de <b>ciência da computação</b> na UFCG, fui monitora de uma disciplina, e também participei de alguns projetos de pesquisa e desenvolvimento.
+          Nesses projetos estudei sobre segurança, trabalhei com <b>frontend</b>, utilizando <b>React JS</b>, e também <b>backend</b>, utilizando <b>Flask</b> e <b>Node JS</b>.
+          Após me graduar, trabalhei com <b>backend</b> durante um ano em uma <b>plataforma de ecommerce</b>.
+          Agora estou no <b>mestrado</b> de ciência da computação na UFCG, e estou envolvida com a parte de <b>análise de dados descritiva</b>.
+          Já participei de duas edições da Olimpíada Paraibana de Informática durante a minha graduação, e na última edição fui premiada com <b>medalha de prata</b>.
+          Tenho 24 anos, me chamo <b>Mariana Dela-Bianca</b>, nasci na Paraíba, e amo ser nordestina. No meu tempo livre brinco com meus pets, canto, danço, faço tricô e crochê!
+        </span>
+        <span class="titulo titulo2-secao">Currículo</span>
+        <button class="link botao-retangulo primario">Currículo</button>
+      </div>
+      <img src="assets/perfil.png" class="perfil"/>
+    </div>
+
+    <div id="projetos" class="pagina h90 container centralizado-vertical centralizado-horizontal direcao-vertical">
+      <span class="titulo titulo-secao">Projetos</span>
+      
+      <div class="container centralizado-horizontal centralizado-vertical direcao-horizontal">
+        <div class="repo-card github-cards" data-repo="marianabianca/hall-das-placas-virtual"></div>
+        <div class="repo-card github-cards" data-repo="marianabianca/pomodoro"></div>
+      </div>
+    </div>
+
+    <div class="rodape cinza container direcao-vertical centralizado-vertical centralizado-horizontal">
+      <a class="link" target="_blank" href="https://storyset.com/">
+        Ilustrações por Storyset by Freepik
+      </a>
+      <a class="link" target="_blank" href="https://github.com/Tarptaeya/repo-card">
+        Cards de repositório do GitHub por Tarptaeya
+      </a>
+    </div>
+
 </body>
 </html>
