@@ -8,6 +8,7 @@
   <title>Mariana Dela-Bianca</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700">
   <link rel="stylesheet" href="main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
 </head>
@@ -29,7 +30,7 @@
           Sou bacharela em ciência da computação pela Universidade Federal de Campina Grande (UFCG).
           Sou engenheira de software, já trabalhei com front-end e back-end.
           No momento, estou no segundo ano do meu mestrado, também na UFCG. Meu tema é relacionado a mulheres na computação, 
-          ]e analiso dados do curso de ciência da computação da UFCG para entender melhor o desempenho dos estudantes e suas trajetórias.
+          e analiso dados do curso de ciência da computação da UFCG para entender melhor o desempenho dos estudantes e suas trajetórias.
           Planejo retornar ao mercado de trabalho em 2023.
         </span>
         <span class="container direcao-horizontal">
@@ -60,7 +61,7 @@
       </div>
     </div>
 
-    <div id="sobre" class="pagina cinza container centralizado-vertical centralizado-horizontal">
+    <div id="sobre" data-aos="fade-right" class="pagina cinza container centralizado-vertical centralizado-horizontal">
       <div class="container direcao-vertical">
         <span class="titulo titulo-secao">Sobre mim</span>
         <span class="texto">
@@ -72,14 +73,15 @@
           Tenho 24 anos, me chamo <b>Mariana Dela-Bianca</b>, nasci na Paraíba, e amo ser nordestina. No meu tempo livre brinco com meus pets, canto, danço, faço tricô e crochê!
         </span>
         <span class="titulo titulo2-secao">Currículo</span>
-        <button class="link botao-retangulo primario">Currículo</button>
+        <a href="https://drive.google.com/drive/folders/17pYl7ds4ZxjFPFK-iuuyReHan383NPa0?usp=sharing" target="_blank">
+            <button class="link botao-retangulo primario">Currículo</button>
+        </a>
       </div>
       <img src="assets/perfil.png" class="perfil"/>
     </div>
 
-    <div id="projetos" class="pagina h90 container centralizado-vertical centralizado-horizontal direcao-vertical">
+    <div id="projetos" data-aos="fade-left" class="pagina h90 container centralizado-vertical centralizado-horizontal direcao-vertical">
       <span class="titulo titulo-secao">Projetos</span>
-      
       <div class="container centralizado-horizontal centralizado-vertical direcao-horizontal">
         <div class="repo-card github-cards" data-repo="marianabianca/hall-das-placas-virtual"></div>
         <div class="repo-card github-cards" data-repo="marianabianca/pomodoro"></div>
@@ -93,7 +95,15 @@
       <a class="link" target="_blank" href="https://github.com/Tarptaeya/repo-card">
         Cards de repositório do GitHub por Tarptaeya
       </a>
+      <a class="link" target="_blank" href="https://github.com/michalsnik/aos">
+        Animações por Michalsnik
+      </a>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
