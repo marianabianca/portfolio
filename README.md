@@ -1,3 +1,3 @@
-# Portifolio
+# Portfolio
 
-Portifolio simples utilizando apenas HTML, CSS e um toque de JS.
+Portfolio simples utilizando apenas HTML, CSS e um toque de JS.
