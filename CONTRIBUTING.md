@@ -16,3 +16,7 @@ Caso deseje contribuir com esse projeto, siga o passo a passo a seguir:
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - flexbox CSS
 - https://www.w3schools.com/tags/ref_byfunc.asp - tags HTML
 - https://www.w3schools.com/cssref/css_units.asp - unidades de tamanho CSS
+
+## Figma
+
+[Clicando aqui](https://www.figma.com/file/HavriyMDwRjFNHsSWVKAKm/hacktoberfest-2022-opendev?node-id=0%3A1) você pode visualizar o design da página tanto para web quanto para mobile no Figma!
